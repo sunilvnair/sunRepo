@@ -8,7 +8,8 @@ public class GetNet {
 	
 	try {
 		 HttpData htp = new HttpData();
-		 htp.setUrl("https://www.moh.gov.om");
+		 htp.setUrl("https://www.facebook.com");
+		 System.out.println("testing");
 		 String s;		
 		s = NetSend.send(htp, "",null,"GET");
 		 System.out.println(s);
